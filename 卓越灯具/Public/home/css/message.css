@@ -1,0 +1,65 @@
+.message_img{
+	margin-top: 20px;
+}
+.tab{
+	background: #ccc;
+	height:31px;
+	margin-top: 40px;
+}
+.tab span{
+	display: block;
+	padding: 5px 20px;
+    float: left;
+    background: #0067b2;
+    color: #fff;
+}
+.message_sub{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.message_sub div{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 14px;
+	height: 40px;
+}
+.message_sub span{
+	width: 75px;
+    display: block;
+    float: left;
+    clear: both;
+    text-align: right;
+}
+.message_sub  input{
+	line-height: 25px;
+}
+div.pack{
+	height: 120px;
+}
+
+.message_new{
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.message_new div{
+	height: 60px;
+	background-color: #E9E9E9;
+	margin-bottom: 5px;
+}
+.message_new div span{
+	width: 100%;
+	display: block;
+	margin-right: 5px;
+	text-align: right;
+	font-size: 14px;
+	line-height: 30px;
+
+}
+.message_new div p{
+	padding-left: 5%;
+	width: 95%;
+	line-height: 30px;
+
+}
+

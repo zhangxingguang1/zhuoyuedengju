@@ -1,0 +1,13 @@
+$(function(){
+	$('.bli').click(function(){
+		$(this).children('a').find('i.fa.fa-chevron-down').toggleClass('sel');
+		$(this).siblings('li').children('a').find('i.fa.fa-chevron-down').removeClass('sel');
+		if($(this).children('ul').is(':hidden')){
+			$(this).children('ul').slideDown(400);
+			$(this).siblings('li').children('ul').slideUp(400);
+		}
+		else{
+			$(this).children('ul').slideUp(400);
+		}
+	})
+})

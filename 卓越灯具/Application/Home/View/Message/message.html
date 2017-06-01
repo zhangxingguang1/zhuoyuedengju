@@ -1,0 +1,78 @@
+<!-- <meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/message.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/wrap.js"></script>
+<script src="js/slide.js"></script> -->
+<extend name="Public/base" />
+<block name="content">	
+	<!--content-->
+	<div class="content clears">
+	<!--面包屑-->
+		<div class="bread">
+		<ol>
+		    <li><a href="{:U('Home/Index/index')}">首页</a></li>
+		    <li class="active">在线留言</li>
+		</ol>
+	</div>
+	<div class="message_img">
+		<img src="__PUBLIC__/home/images/message.jpg" />
+	</div>
+	<div class="tab">
+		<span>提交留言</span>
+	</div>
+	<div class="message_sub">
+		<form action="" method="post">
+			<div class="clears">
+				<span>问 题：</span>
+				<input name="FaqTitle" type="text" /><font color="#FF0000">*</font>
+			</div>    
+			<div class="pack clears">
+				<span>内 容：</span>
+				<textarea name="Content" cols="60" rows="6"></textarea><font color="#FF0000">*</font>
+			</div>
+			<div class="clears">
+				<span>联系人：</span>
+				<input name="Contact" type="text" /><font color="#FF0000">*</font>
+			</div>
+			<div>
+				<span>联系方式：</span>
+				<input name="ContactWay" type="text" /> <font color="#FF0000">*</font> 请注明是手机、电话、QQ、Email,方便我们和您联系
+			</div>
+			<div>
+				<span>验证码：</span>
+				<input name="code" type="text" class="" id="" size="6" maxlength="6"/><font color="#FF0000">*</font>
+				<img src="" alt="看不清验证码?点击刷新!" onClick="" />
+			</div>
+			<div>
+				<span>&nbsp;</span>
+				<input type="submit" value=" 提交 "/>
+			</div>
+		</form>
+	</div>
+	<div class="tab">
+		<span>最新留言</span>
+	</div>
+	<div class="message_new">
+		<div>
+			<p>这是啦啦啦阿里粉的一些内容</p><span class="mes_title">时间：20175-5-15&nbsp&nbsp</span>
+		</div>
+		<div>
+			<p>这是啦啦啦阿里粉的一些内容</p><span class="mes_title">时间：20175-5-15&nbsp&nbsp</span>
+		</div>
+		<div>
+			<p>这是啦啦啦阿里粉的一些内容</p><span class="mes_title">时间：20175-5-15&nbsp&nbsp</span>
+		</div>
+		<div>
+			<p>这是啦啦啦阿里粉的一些内容</p><span class="mes_title">时间：20175-5-15&nbsp&nbsp</span>
+		</div>
+		<div>
+			<p>这是啦啦啦阿里粉的一些内容</p><span class="mes_title">时间：20175-5-15&nbsp&nbsp</span>
+		</div>
+		<div>
+			<p>这是啦啦啦阿里粉的一些内容</p><span class="mes_title">时间：20175-5-15&nbsp&nbsp</span>
+		</div>
+	</div>
+	</div>
+</block>

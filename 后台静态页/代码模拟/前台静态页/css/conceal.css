@@ -1,0 +1,73 @@
+.bread{
+	margin-left: 14%;
+	line-height: 60px;
+}
+.conceal{
+	border:1px solid #BBB;
+	width:72%;
+	margin-left:14%;
+	margin-bottom: 40px;
+}
+.conceal h2{
+	text-align: center;
+	margin-top: 20px;
+}
+.conceal p{
+	margin-bottom: 10px;
+	padding-left: 4%;
+	padding-right: 4%;
+	font-size: 14px;
+}
+.conceal h4{
+	line-height: 40px;
+	padding-left: 4%;
+}
+.conceal > ul{
+	height:500px;
+	padding-left: 5%;
+}
+.conceal li{
+	line-height:50px;
+	list-style: none;
+}
+.conceal a{
+	text-decoration: none;
+	color: #666;
+}
+.nav_s > li{
+	float: left;
+	width:14%;
+}
+.us_info dl{
+    font-size: 14px;
+    color: #666666;
+    padding: 20px 0 15px 40px;
+    line-height:28px;
+}
+.case{
+	margin-left: 14%;
+	width: 71%;
+	line-height:40px;
+	padding-left: 1%;
+	border: 1px solid #BBB;
+}
+.case1 {
+	margin-left: 14%;
+	height:1420px;
+	width:72%;
+	border: 1px solid #BBB;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.case1 img{
+	height:300px;
+	width:72%;
+	padding-left: 14%;
+	padding-top: 20px;
+}
+.case1 p{
+	padding-left: 7%;
+	line-height: 30px;
+	padding-top: 40px;
+	text-indent: 2em;
+}

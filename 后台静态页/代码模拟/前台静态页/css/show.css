@@ -1,0 +1,120 @@
+.content{
+	margin-left: 14%;
+	width: 72%;
+}
+.bread{
+	margin-top: 20px;
+}
+.product_detail{
+	height: 540px;
+	margin-top: 20px;
+}
+.product_img{
+	float:left;
+	height: 454px;
+	width:40%;
+}
+.hide{
+	width:100%;
+	height:454px;
+	border:1px solid #ccc;	
+}
+.hide img{
+	width:100%;
+	height:454px;
+}
+#imageslist{
+	list-style: none;
+}
+#imageslist li{
+	float: left;
+	margin: 5px 2% 0 0;
+	border:1px solid #ccc;
+	width: 20%;
+	height:80px;
+}
+#imageslist li img{
+	 width:100%;
+	 height:100%;
+}
+.product_info{
+	float:left;
+	margin-left: 10%;
+	height: 454px;
+	width:40%;
+}
+.product_info span{
+	font-size:14px;
+	color: #999;
+    line-height: 24px;
+}
+.product_info p{
+	font-size:14px;
+	color: #333;
+    line-height: 24px;
+}
+.tab{
+	background: #ccc;
+	height:31px;
+	margin-top: 40px;
+}
+.tab span{
+	display: block;
+	padding: 5px 20px;
+    float: left;
+    background: #0067b2;
+    color: #fff;
+}
+.common{
+	margin-top: 20px;
+}
+.common th {
+    font-size: 12px;
+    color:#666;
+    font-weight: bold;
+    padding: 6px;
+}
+.th_left {
+    text-align: left;
+    background-color: #f0f0f0;
+    background-image: url(../images/page_left_tatle_bg.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    border-bottom: 1px solid #ccc;
+}
+.th_right {
+    text-align: left;
+    background-color: #f0f0f0;
+    background-image: url(../images/page_right_tatle_bg.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.common td {
+    border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+    padding: 3px 0px 3px 5px;
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    color:#666;
+}
+.con_list1{
+    padding-left: 16px;
+    list-style-type: disc;
+    margin-top: 20px;
+
+}
+.con_list2{
+    padding-left: 16px;
+    list-style-type: disc;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.con_list1 li, .con_list2 li{
+	padding: 3px;
+    font-size: 14px;
+    color:#666;
+}
+
+

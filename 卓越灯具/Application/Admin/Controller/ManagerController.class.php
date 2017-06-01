@@ -5,4 +5,7 @@
         public  function manager(){
          	$this->display();
          }
+         public function man_add(){
+         	$this->display();
+         }
      }

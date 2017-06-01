@@ -5,4 +5,7 @@
          public function Classify(){
          	$this->display();
          }
+         public function Classify_add(){
+         	$this->display();
+         }
      }

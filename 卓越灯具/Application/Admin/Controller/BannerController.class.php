@@ -5,4 +5,7 @@
          public function banner(){
          	$this->display();
          }
+         public function ban_add(){
+         	$this->display();
+         }
      }

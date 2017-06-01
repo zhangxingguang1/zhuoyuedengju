@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.css">
+    <style>
+        .news_add_top{
+            height: 560px;
+        }
+        .news_add_left{
+            width: 20%;
+            float: left;
+            text-align: right;
+            height: 30px;
+            line-height: 30px;
+        }
+        .news_add_right{
+            padding-left: 3%;
+            height: 50px;
+            width: 77%;
+            float: left;
+        }
+        .c-red{
+            color:red;
+        }
+        input, textarea, keygen, select, button{
+            padding: 4px;
+            line-height: 21px;
+            border: 1px solid #ddd;
+        }
+        .input-text:hover,.textarea:hover{
+            border: solid 1px #3bb4f2;
+        }
+        input[type=text],input[type=password],textarea{
+            width: 96%;
+        }
+        input[type=text]:focus, input[type=password]:focus {
+           /*border:solid 1px #0f9ae0 \9;*/
+           border-color:rgba(82,168,236,0.8);
+           box-shadow:0 1px 1px rgba(0,0,0,0.075) inset,0 0 8px rgba(102,175,233,0.6);
+        }
+        .radio-box{
+            padding:7px;
+            width: 10%;
+            display: block;
+            float: left;
+        }
+        .radio-box input{
+            height: 20px;
+            width: 50%;
+            display: block;
+            float: left;
+        }
+        .radio-box span{
+            width: 50%;
+            display: block;
+            float: left;
+        }
+        .news_add_top textarea{
+            height: 100px;
+        }
+        .news_add_btn{
+            margin-top: 10px;
+            width: 100%;
+            height: 40px;
+        }
+        .but_sub{
+            width: 6%;
+            margin-left: 23%;
+            color: #fff;
+            background-color: #5a98de;
+            border-color: #5a98de;
+            border-radius: 4px;
+        }
+        .but_sub:hover{
+            color: #fff;
+            background-color: #0a6999;
+            border-color: #0a6999;
+        }
+        .news_left_more{
+            width: 20%;
+            float: left;
+            text-align: right;
+            height: 30px;
+            line-height: 30px;
+        }
+        .news_right_more{
+            padding-left: 3%;
+            height: 120px;
+            width: 77%;
+            float: left;
+        }       
+        .news_add_right h5{
+            width: 100%;
+            text-align: left;
+            line-height: 30px;
+        }
+        .wuliao{
+            margin-top:5px;
+            border: 1px solid #eeeeee;
+            width: 97%;
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="" style="padding:20px">
+            <div class="news_add_top">
+                <div>
+                    <div class="news_add_left">
+                        <span><span class="c-red">*</span>新闻标题：</span>
+                    </div>
+                    <div class="news_add_right">
+                        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+                    </div>
+                </div>
+                <div>
+                    <div class="news_add_left">
+                        <span>文章作者：</span>
+                    </div>
+                    <div class="news_add_right">
+                        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+                    </div>
+                </div>
+                <div>
+                    <div class="news_add_left">
+                        <span>文章来源：</span>
+                    </div>
+                    <div class="news_add_right">
+                        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+                    </div>
+                </div>
+                <div>
+                    <div class="news_left_more">
+                        <span><span class="c-red">*</span>新闻内容：</span>
+                    </div>
+                    <div class="news_right_more">
+                        <textarea name="" cols="" rows="" class="textarea"  placeholder="说点什么..." datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <div class="news_add_left">
+                        <span>图片上传：</span>
+                    </div>
+                    <div class="news_add_right">
+                        <div>
+                        <input class="input" type="file" id="file_input" name="file"  multiple/>
+                        </div>
+                        <h5>图片预览</h5>
+                        <div id="wuliao" class="wuliao"></div>
+                    </div>
+                </div>
+            </div>                
+            
+            <div class="news_add_btn"><input class="but_sub" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;"></div>
+        </form>
+    </div>
+<script>
+    window.onload = function(){
+        var input = document.getElementById("file_input");
+        var result,div;
+
+        if(typeof FileReader==='undefined'){
+            result.innerHTML = "抱歉，你的浏览器不支持 FileReader";
+            input.setAttribute('disabled','disabled');
+        }else{
+         input.addEventListener('change',readFile,false);
+        }　　　　　//handler
+        function readFile(){
+            for(var i=0;i<this.files.length;i++){
+                if (!input['value'].match(/.jpg|.gif|.png|.bmp/i)){　　//判断上传文件格式
+                    return alert("上传的图片格式不正确，请重新选择");　　　　　　　　　
+                }
+                var reader = new FileReader();
+                reader.readAsDataURL(this.files[i]);
+                reader.onload = function(e){
+                    console.log(e);
+                    result = '<div class="result" ><img src="'+this.result+'" class="ban_img" alt=""/></div>';
+                    div = document.createElement('div');
+                    div.innerHTML = result;
+                    console.log(div);
+                    document.getElementById('wuliao').appendChild(div); 　　//插入dom树      <br>　　　
+                    // document.body.appendChild(div);　　　　
+                }
+            }
+        }
+    }
+
+</script>   
+</body>
+</html>

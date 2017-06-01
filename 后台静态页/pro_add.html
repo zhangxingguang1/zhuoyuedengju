@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+    <div>
+        <form action="" style="padding:20px">
+            <div class="pro_add_top">
+                <div>
+                    <div class="pro_add_left">
+                        <span><span class="c-red">*</span>产品标题：</span>
+                    </div>
+                    <div class="pro_add_right">
+                        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+                    </div>
+                </div>
+                <div>
+                    <div class="pro_add_left">
+                        <span><span class="c-red">*</span>产品分类：</span>
+                    </div>
+                    <div class="pro_add_right">
+                        <span class="select-box">
+                            <select name="" class="select">
+                                <option value="0">一级分类</option>
+                                <option value="1">一级分类</option>
+                            </select>
+                        </span>
+                        <span>
+                            <select name="" class="select">
+                                <option value="0">二级分类</option>
+                                <option value="1">二级分类</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="pro_add_left">
+                        <span>材料产地：</span>
+                    </div>
+                    <div class="pro_add_right">
+                        <input type="text" name="" id="" placeholder="" value="" class="input-text">
+                    </div>
+                </div>
+                <div>
+                    <div class="pro_add_left">
+                        <span>产品规格：</span>
+                    </div>
+                    <div class="pro_add_right">
+                        <input type="text" name="" id="" placeholder="输入长度" value="" class="input-text" style=" width:25%">M
+                        <input type="text" name="" id="" placeholder="输入宽度" value="" class="input-text" style=" width:25%">M
+                        <input type="text" name="" id="" placeholder="输入高度" value="" class="input-text" style=" width:25%">M
+                    </div>
+                </div>
+                <div>
+                    <div class="news_left_more">
+                        <span><span class="c-red">*</span>产品介绍：</span>
+                    </div>
+                    <div class="news_right_more">
+                        <textarea name="" cols="" rows="" class="textarea"  placeholder="说点什么..." datatype="*10-100" dragonfly="true" nullmsg="备注不能为空！"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <div class="pro_add_left">
+                        <span><span class="c-red">*</span>图片上传：</span>
+                    </div>
+                    <div class="pro_add_right">
+                        <div>
+                        <input class="input" type="file" id="file_input" name="file"  multiple/>
+                        </div>
+                        <h5>图片预览</h5>
+                        <div id="wuliao" class="wuliao"></div>
+                    </div>
+                </div>
+            </div>                
+            
+            <div class="pro_add_btn"><input class="but_sub" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;"></div>
+        </form>
+    </div>
+<script>
+    window.onload = function(){
+        var input = document.getElementById("file_input");
+        var result,div;
+
+        if(typeof FileReader==='undefined'){
+            result.innerHTML = "抱歉，你的浏览器不支持 FileReader";
+            input.setAttribute('disabled','disabled');
+        }else{
+         input.addEventListener('change',readFile,false);
+        }　　　　　//handler
+        function readFile(){
+            for(var i=0;i<this.files.length;i++){
+                if (!input['value'].match(/.jpg|.gif|.png|.bmp/i)){　　//判断上传文件格式
+                    return alert("上传的图片格式不正确，请重新选择");　　　　　　　　　
+                }
+                var reader = new FileReader();
+                reader.readAsDataURL(this.files[i]);
+                reader.onload = function(e){
+                    console.log(e);
+                    result = '<div class="result" ><img src="'+this.result+'" class="ban_img" alt=""/></div>';
+                    div = document.createElement('div');
+                    div.innerHTML = result;
+                    console.log(div);
+                    document.getElementById('wuliao').appendChild(div); 　　//插入dom树      <br>　　　
+                    // document.body.appendChild(div);　　　　
+                }
+            }
+        }
+    }
+
+</script>   
+</body>
+</html>

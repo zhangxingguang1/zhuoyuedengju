@@ -28,8 +28,10 @@
 	font-size: 18px;
 }
 .bre_action li{
-	color: #fff;
 	background-color: #00A2CA;
+}
+.bre_action li a{
+	color: #fff !important;
 }
 .bre_action span{ 
 	box-sizing:border-box;

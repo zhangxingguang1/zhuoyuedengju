@@ -67,27 +67,70 @@
 	</div>
 </div>
 <!--右侧悬浮菜单-->
-<div class="slide">
-	<ul class="icon">
-		<a href="javascript:scrollTo(0,0);"><li class="up" title="顶部"></li></a>
-		<li class="qq"></li>
-		<li class="tel"></li>
-		<li class="wx"></li>
-		<a href="javascript:scrollTo(9999,9999);"><li class="down" title="底部"></li></a>
-	</ul>
-	<ul class="info">
-		<li class="qq">
-			<p>在线沟通，请点我<a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes" target="_blank">在线咨询</a></p>
-		</li>
-		<li class="tel">
-			<p>咨询热线：<br>177-9691-1177<br>客服qq：<br>123456789</p>
-		</li>
-		<li class="wx">
-			<div class="img"><img src="/zhuoyue/Public/home/images/1441956938.png" /></div>
-		</li>
-	</ul>
+<div class="chat" id="close">
+	<!-- 信息展示框 -->
+	<div class="chatshow1">
+	<div class="chatshow" id="chatshow">
+	</div>
+	</div>
+	<!--信息输入框-->
+	 <div class="neir">
+    	<textarea type="text" class="texts"></textarea>
+    	<input type="submit" class="sends" value="发 送" />
+	</div>
 </div>
-<div id="btn" class="index_cy"></div>
+<div id="btn" class="index_cy" title="在线客服"></div>
+<div class="index_by" onclick="javascript:scrollTo(0,0);" title="返回顶部"></div>
+<script>
+	$(function(){
+		$('.sends').click(function(){
+			var name=$('.texts').val();
+			var count=0
+			if(name==""){
+				alert("内容不能为空");
+			}
+			else{
+				$(".texts").val("");
+				var mydata=new Date();
+				var ddmm=mydata.toLocaleTimeString();
+				var html="<div class='ni'><p class='date2'>"+ddmm+"</p><div class='neirong1 clears'>"+"<img src='/zhuoyue/Public/home/images/kehu.jpg' class='gifsize'/>"+"<div class='arrow1'></div><span>"+name+"</span>"+"<img src='/zhuoyue/Public/home/images/gif.gif' class='image'>"+"</div></div>";
+				$('.chatshow').append(html);
+				$('.chatshow').scrollTop($('.chatshow')[0].scrollHeight);
+
+				$.post("<?php echo U('home/Index/ajax');?>",{content:name,goid:count,time:ddmm},function(){
+					$('.image').remove();
+				});
+			}  
+		});
+		
+		$('#btn').click(function(){
+			$('#close').toggle();
+			if($(this).hasClass('index_cy')){
+				$(this).removeClass('index_cy');
+				$(this).addClass('index_cy2');
+			}
+			else{
+				$(this).removeClass('index_cy2');
+				$(this).addClass('index_cy');
+			}	
+		});	
+	})
+	var id=0;
+	function xx(){
+		$.getJSON("<?php echo U('home/index/fresh');?>",'',function(mess){
+			var len=mess.length-1
+			for(var i=len;i>-1;i--){
+				if(mess[i]['id']>id){
+					var html="<p class='date1'>"+mess[i]['times']+"</p><div class='neirong clears'>"+"<img src='/zhuoyue/Public/home/images/kehu.jpg' />"+"<div class='arrow'></div><span>"+mess[i]['content']+"</span></div>";
+					$('.chatshow').append(html);
+					$('.chatshow').scrollTop($('.chatshow')[0].scrollHeight);
+					id=mess[i]['id'];
+				}
+			}
+		});
+	}
+	setInterval("xx()",5000);
+</script>
   		
 	<!--轮播图-->
 	<div class="wrap" id="wrap">
@@ -203,8 +246,8 @@
 		<h5>官方微信</h5>
 	</div>
 	<div class="wechat">
-		<img src="/zhuoyue/Public/home/images/wechat.jpg" />
-		<h5>官方微信</h5>
+		<img src="/zhuoyue/Public/home/images/weibo.jpg" />
+		<h5>官方微博</h5>
 	</div>
 	<div class="contact">
 		<a><i class="fa fa-phone-square"></i>&nbsp&nbsp17796911177</a>
@@ -212,7 +255,7 @@
 		<a><i class="fa fa-envelope"></i>&nbsp&nbsp客服邮箱<p>kefu@example.com</p></a>
 	</div>
 	<div class="clears"></div>
-	<p class="p">  2017 by 新乐市天光灯具有限公司&nbsp&nbsp&nbsp&nbsp经营许可证编号：冀000000</p>
+	<p class="p">  2017 by 新乐市卓越灯具有限公司&nbsp&nbsp&nbsp&nbsp经营许可证编号：冀000000</p>
 </div>
   	</body>
 </html>

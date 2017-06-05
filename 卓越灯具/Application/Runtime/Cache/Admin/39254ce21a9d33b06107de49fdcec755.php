@@ -10,7 +10,7 @@
     <div class="panel">
         <div class="panel-head"><i class="fa fa-navicon"></i> 内容列表</div>
         <div class="padding">  
-            <button><a href="/C2C/index.php/Admin/adv/advadd"><i class="fa fa-plus"></i> 添加管理员</a></button>
+            <button><a href="<?php echo U('admin/manager/man_add');?>" target="right"><i class="fa fa-plus"></i> 添加管理员</a></button>
             <button><a href="/C2C/index.php/Admin/adv/advadd"><i class="fa fa-minus"></i> 批量删除</a></button>
         </div>
         <form name="myform" method="post">           

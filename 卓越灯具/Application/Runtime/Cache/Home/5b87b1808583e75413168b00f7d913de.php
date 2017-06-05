@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="/zhuoyue/Public/home/css/show.css">
 <script src="/zhuoyue/Public/home/js/jquery.min.js"></script>
 <script src="/zhuoyue/Public/home/js/wrap.js"></script>
-<script src="/zhuoyue/Public/home/js/slide.js"></script>
+<script src="/zhuoyue/Public/home/js/filter.js"></script>
 	  	<title>卓越灯具</title>
   	</head>
   	<body>
@@ -67,27 +67,88 @@
 	</div>
 </div>
 <!--右侧悬浮菜单-->
-<div class="slide">
-	<ul class="icon">
-		<a href="javascript:scrollTo(0,0);"><li class="up" title="顶部"></li></a>
-		<li class="qq"></li>
-		<li class="tel"></li>
-		<li class="wx"></li>
-		<a href="javascript:scrollTo(9999,9999);"><li class="down" title="底部"></li></a>
-	</ul>
-	<ul class="info">
-		<li class="qq">
-			<p>在线沟通，请点我<a href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes" target="_blank">在线咨询</a></p>
-		</li>
-		<li class="tel">
-			<p>咨询热线：<br>177-9691-1177<br>客服qq：<br>123456789</p>
-		</li>
-		<li class="wx">
-			<div class="img"><img src="/zhuoyue/Public/home/images/1441956938.png" /></div>
-		</li>
-	</ul>
+<div class="chat" id="close">
+	<!-- 信息展示框 -->
+	<div class="chatshow1">
+	<div class="chatshow" id="chatshow">
+	</div>
+	</div>
+	<!--信息输入框-->
+	 <div class="neir">
+    	<textarea type="text" class="texts"></textarea>
+    	<input type="submit" class="sends" value="发 送" />
+	</div>
 </div>
-<div id="btn" class="index_cy"></div>
+<div id="btn" class="index_cy" title="在线客服"></div>
+<div class="index_by" onclick="javascript:scrollTo(0,0);" title="返回顶部"></div>
+<script>
+	var name="";
+	var id=0;
+	$(document).ready(function(){
+		if(!sessionStorage.idj){
+			$.getJSON("<?php echo U('home/index/chedan');?>",'',function(mss){
+				sessionStorage.idj=mss[0]['id'];
+			})
+		}
+		$('.sends').click(function(){
+			name=$('.texts').val();
+			var count=0;
+			if(name==""){
+				alert("内容不能为空");
+			}
+			else{
+				$(".texts").val("");
+				if(!sessionStorage.id){
+					sessionStorage.id=sessionStorage.idj;
+					$.post("<?php echo U('home/index/chedand');?>",{toid:sessionStorage.id})
+				}
+				var mydata=new Date();
+				var ddmm=mydata.toLocaleTimeString();
+				var html="<div class='ni'><p class='date2'>"+ddmm+"</p><div class='neirong1 clears'>"+"<img src='/zhuoyue/Public/home/images/kehu.jpg' class='gifsize'/>"+"<div class='arrow1'></div><span>"+name+"</span>"+"<img src='/zhuoyue/Public/home/images/gif.gif' class='image'>"+"</div></div>";
+				$('.chatshow').append(html);
+				$('.chatshow').scrollTop($('.chatshow')[0].scrollHeight);
+				$.post("<?php echo U('home/Index/ajax');?>",{content:name,goid:count,toid:sessionStorage.id,time:ddmm},function(){
+					$('.image').remove();
+				});
+			}  
+		});
+		
+		$('#btn').click(function(){
+			$('#close').toggle();
+			if($(this).hasClass('index_cy')){
+				$(this).removeClass('index_cy');
+				$(this).addClass('index_cy2');
+			}
+			else{
+				$(this).removeClass('index_cy2');
+				$(this).addClass('index_cy');
+			}	
+		});	
+	})
+	function xx(){
+		$.getJSON("<?php echo U('home/index/fresh');?>",'',function(mess){
+			var len=mess.length-1;
+			for(var i=len;i>-1;i--){
+				if(mess[i]['id']>id&&mess[i]['toid']==sessionStorage.id){
+					id=mess[i]['id'];
+					if(mess[i]['goid']==1){
+						var html="<p class='date1'>"+mess[i]['times']+"</p><div class='neirong clears'>"+"<img src='/zhuoyue/Public/home/images/kehu.jpg' />"+"<div class='arrow'></div><span>"+mess[i]['content']+"</span></div>";
+						$('.chatshow').append(html);
+						$('.chatshow').scrollTop($('.chatshow')[0].scrollHeight);
+					}
+					else{
+						if(mess[i]['content']!=name){
+							var html="<div class='ni'><p class='date2'>"+mess[i]['times']+"</p><div class='neirong1 clears'>"+"<img src='/zhuoyue/Public/home/images/kehu.jpg' class='gifsize'/>"+"<div class='arrow1'></div><span>"+mess[i]['content']+"</span>"+"</div></div>";
+							$('.chatshow').append(html);
+							$('.chatshow').scrollTop($('.chatshow')[0].scrollHeight);
+						}
+					}
+				}
+			}
+		});
+	}
+	setInterval("xx()",5000);
+</script>
   			  	
 	<!--content-->
 	<div class="content clears">
@@ -98,82 +159,288 @@
 			    <li class="active">产品中心</li>
 			</ol>
 		</div>
-			<h3 class="prod">产品分类</h3>
-	  		<div class="classify">
-	  			<ul>
-	  				<li><a href="#">高杆灯</a></li>
-	  				<li><a href="#">中杆灯</a></li>
-	  				<li><a href="#">道路灯</a></li>
-	  				<li><a href="#">庭院灯</a></li>
-	  				<li><a href="#">室内灯</a></li>
-	  			</ul>
-	  		</div>
-	  	<div class="classi">
-	  		<div class="select">
-	  			产品筛选:
-	  		</div>
-	  		<div class="classify1 clears">
-	  			<p>光源种类：</p>
-	  			<ul>
-	  				<li><a href="#">LED灯</a></li>
-	  				<li><a href="#">太阳能灯</a></li>
-	  				<li><a href="#">电灯</a></li>
-	  			</ul>
-	  		</div>
-	  		<div class="classify1">
-	  			<p>用途分类:</p>
-	  			<ul>
-	  				<li><a href="#">工矿灯</a></li>
-	  				<li><a href="#">投光灯</a></li>
-	  				<li><a href="#">地插灯</a></li>
-	  				<li><a href="#">监控灯</a></li>
-	  				<li><a href="#">信号灯</a></li>
-	  			</ul>
-	  		</div>
-	  	</div>
+		<h3 class="prod">产品分类</h3>
+  		<div class="classify">
+  			<ul id="cate_tabs">
+  				<li><a href="#">高杆灯</a></li>
+  				<li><a href="#">中杆灯</a></li>
+  				<li><a href="#">道路灯</a></li>
+  				<li><a href="#">庭院灯</a></li>
+  				<li><a href="#">室内灯</a></li>
+  			</ul>
+  		</div>
+  		<div id="cate_tab_content">
+			<div class="filter" id="cate_tab1">
+		  		<div class="select">
+		  			<p>产品筛选：</p>
+		  			<ul style="display:none;"></ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>光源种类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">LED灯</a></li>
+		  				<li><a href="javascript:void(0);">太阳能灯</a></li>
+		  				<li><a href="javascript:void(0);">电灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  	</div>
+		  	<div class="filter" id="cate_tab2">
+		  		<div class="select">
+		  			<p>产品筛选：</p>
+		  			<ul style="display:none;"></ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>光源种类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">LED灯</a></li>
+		  				<li><a href="javascript:void(0);">太阳能灯</a></li>
+		  				<li><a href="javascript:void(0);">电灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  	</div>
+			<div class="filter" id="cate_tab3">
+		  		<div class="select">
+		  			<p>产品筛选：</p>
+		  			<ul style="display:none;"></ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>光源种类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">LED灯</a></li>
+		  				<li><a href="javascript:void(0);">太阳能灯</a></li>
+		  				<li><a href="javascript:void(0);">电灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  	</div>
+		  	<div class="filter" id="cate_tab4">
+		  		<div class="select">
+		  			<p>产品筛选：</p>
+		  			<ul style="display:none;"></ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>光源种类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">LED灯</a></li>
+		  				<li><a href="javascript:void(0);">太阳能灯</a></li>
+		  				<li><a href="javascript:void(0);">电灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>光源种类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">LED灯</a></li>
+		  				<li><a href="javascript:void(0);">太阳能灯</a></li>
+		  				<li><a href="javascript:void(0);">电灯</a></li>
+		  			</ul>
+		  		</div>
+		  	</div>
+		  	<div class="filter" id="cate_tab5">
+		  		<div class="select">
+		  			<p>产品筛选：</p>
+		  			<ul style="display:none;"></ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>光源种类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">LED灯</a></li>
+		  				<li><a href="javascript:void(0);">太阳能灯</a></li>
+		  				<li><a href="javascript:void(0);">电灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  		<div class="classify1">
+		  			<p>用途分类：</p>
+		  			<ul>
+		  				<li><a href="javascript:void(0);" class="sel-all">全部</a></li>
+		  				<li><a href="javascript:void(0);">工矿灯</a></li>
+		  				<li><a href="javascript:void(0);">投光灯</a></li>
+		  				<li><a href="javascript:void(0);">地插灯</a></li>
+		  				<li><a href="javascript:void(0);">监控灯</a></li>
+		  				<li><a href="javascript:void(0);">信号灯</a></li>
+		  			</ul>
+		  		</div>
+		  	</div>
+  		</div>
 		<div class="show clears">
-			<div class="show1">
-				<a href="<?php echo U('Home/Show/show');?>"><img src="/zhuoyue/Public/home/images/05.jpg" alt=""></a>
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/01.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show2">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/03.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show3">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/01.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show4">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/03.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show1">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/01.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show2">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/03.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show3">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/01.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show4">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/03.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show3">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/01.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
-			<div class="show4">
-				<img src="/zhuoyue/Public/home/images/05.jpg" alt="">
-				<p>关于产品1的一些介绍</p>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/03.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
+			</div>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/01.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
+			</div>
+			<div>
+				<a href="<?php echo U('Home/Show/show');?>">
+					<img src="/zhuoyue/Public/home/images/03.jpg" />
+					<h3>高杆灯</h3>
+					<span>查看详细信息</span>
+				</a>
 			</div>
 		</div>
-		<div class="page">上一页 < < 1 2 3 4 5 6 7 8 > > 下一页</div>
+		<div class="page"><上一页&nbsp&nbsp1 2 3 4 5 6 7 8&nbsp&nbsp下一页></div>
 	</div>
 
 		<div class="footer">
@@ -193,8 +460,8 @@
 		<h5>官方微信</h5>
 	</div>
 	<div class="wechat">
-		<img src="/zhuoyue/Public/home/images/wechat.jpg" />
-		<h5>官方微信</h5>
+		<img src="/zhuoyue/Public/home/images/weibo.jpg" />
+		<h5>官方微博</h5>
 	</div>
 	<div class="contact">
 		<a><i class="fa fa-phone-square"></i>&nbsp&nbsp17796911177</a>
@@ -202,7 +469,7 @@
 		<a><i class="fa fa-envelope"></i>&nbsp&nbsp客服邮箱<p>kefu@example.com</p></a>
 	</div>
 	<div class="clears"></div>
-	<p class="p">  2017 by 新乐市天光灯具有限公司&nbsp&nbsp&nbsp&nbsp经营许可证编号：冀000000</p>
+	<p class="p">  2017 by 新乐市卓越灯具有限公司&nbsp&nbsp&nbsp&nbsp经营许可证编号：冀000000</p>
 </div>
   	</body>
 </html>

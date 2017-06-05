@@ -503,9 +503,6 @@ li{
 	color:#fff;
 }
 /*右侧悬浮菜单*/
-
-
-/*控制菜单的按钮*/
 .index_cy{
 	width:49px;
 	height:49px;
@@ -654,8 +651,6 @@ li{
 	border:solid 6px;
 	border-color:#fff #fff #fff #90ee90;
 }
-
-
 /*自适应 当屏小于1050时隐藏*/
 @media screen and (max-width: 1050px) {
 	.slide{

@@ -4,8 +4,8 @@
 	class ProductController extends Controller {
         public function product(){
          	$this->display();
-         }
-         public function pro_add(){
+        }
+        public function pro_add(){
          	$this->display();
-         }
+        }
      }

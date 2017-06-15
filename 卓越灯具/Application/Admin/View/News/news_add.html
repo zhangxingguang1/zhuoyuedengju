@@ -12,21 +12,30 @@
     <div class="edit">
         <div class="edit-head"><i class="fa fa-edit"></i> 添加新闻</div>
         <div class="edit-body">
-            <form method="post" action="">     
+            <form method="post" action="{:U('Admin/News/store')}" enctype="multipart/form-data">     
                 <div class="form-group">
                     <div class="place">
                         <div class="label"><span class="require-red">*</span>新闻分类：</div>
-                        <select>
-                            <option value="公司新闻">公司新闻</option>
+                        <select name="cate">
+                            <volist name="news_item" id="vo">
+                                <option value="{$vo.name}">{$vo.name}</option>
+                            </volist>
+                            <!-- <option value="公司新闻">公司新闻</option>
                             <option value="行业动态">行业动态</option>
-                            <option value="常见问题">常见问题</option>
+                            <option value="常见问题">常见问题</option> -->
                         </select>         
                     </div>
                 </div>        
                 <div class="form-group">
                     <div class="place">
                         <div class="label"><span class="require-red">*</span>新闻标题：</div>
-                        <input type="text" />         
+                        <input type="text" name="title" />         
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label"><span class="require-red">*</span>新闻图片：</div>
+                        <input type="file" name="thumb" />         
                     </div>
                 </div>
                 <div class="form-group">

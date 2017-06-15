@@ -23,19 +23,19 @@
 		    </li>
 		    <li><a href="{:U('Home/Product/product')}">产品展示</a>
 		    	<ul class="sub">
-					<li><a href="{:U('Home/Product/product')}">高中杆灯系列</a></li>
-					<li><a href="{:U('Home/Product/product')}">道路灯系列</a></li>
-					<li><a href="{:U('Home/Product/product')}">华灯系列</a></li>
-					<li><a href="{:U('Home/Product/product')}">景观灯系列</a></li>
-					<li><a href="{:U('Home/Product/product')}">庭院灯系列</a></li>
-					<li><a href="{:U('Home/Product/product')}">太阳能灯系列</a></li>
+					<li><a href="{:U('Home/Product/product')}/1">高杆灯系列</a></li>
+					<li><a href="{:U('Home/Product/product')}/2">道路灯系列</a></li>
+					<li><a href="{:U('Home/Product/product')}/3">华灯系列</a></li>
+					<li><a href="{:U('Home/Product/product')}/4">景观灯系列</a></li>
+					<li><a href="{:U('Home/Product/product')}/5">庭院灯系列</a></li>
+					<li><a href="{:U('Home/Product/product')}/6">太阳能灯系列</a></li>
 		    	</ul>
 		    </li>
 		    <li><a href="{:U('Home/News/news')}">新闻中心</a> 
 		    	<ul class="sub">
-					<li><a href="{:U('Home/News/news')}">公司新闻</a></li>
-					<li><a href="{:U('Home/News/news')}">行业动态</a></li>
-					<li><a href="{:U('Home/News/news')}">常见问题</a></li>
+					<li><a id="1" href="{:U('Home/News/news')}/1">公司新闻</a></li>
+					<li><a id="2" href="{:U('Home/News/news')}/2">行业动态</a></li>
+					<li><a id="3" href="{:U('Home/News/news')}/3">常见问题</a></li>
 		    	</ul>
 		    </li>
 		    <li><a href="{:U('Home/Example/example')}">成功案例</a></li>
@@ -44,7 +44,9 @@
 		</ul>
 	</div>
 	<div class="search">
-		<input type="text" name="search" placeholder="搜索关键词..."><a href="#"><i class="fa fa-search"></i></a>
+		<form method="post" action="{:U('Home/Search/search')}">
+			<input type="text" name="search" placeholder="搜索关键词..."><button class="sea" type="submit"><i class="fa fa-search"></i></button>
+		</form>
 	</div>
 </div>
 <!--右侧悬浮菜单-->

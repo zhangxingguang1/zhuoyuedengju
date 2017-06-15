@@ -10,10 +10,12 @@
 	<!--轮播图-->
 	<div class="wrap" id="wrap">
 		<ul id="pic">
-			<li><img src="__PUBLIC__/home/images/1.jpg" /></li>
-			<li><img src="__PUBLIC__/home/images/2.jpg" /></li>
-			<li><img src="__PUBLIC__/home/images/3.jpg" /></li>
-			<li><img src="__PUBLIC__/home/images/4.jpg" /></li>
+			<volist name="banner" id="vo">
+				<li><img src="{:U($vo['src'])}" /></li>
+				<!-- <li><img src="__PUBLIC__/home/images/2.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/3.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/4.jpg" /></li> -->
+			</volist>
 		</ul>
 		<ol id="list">
 			<li class="on" value="1"></li>

@@ -3,10 +3,12 @@
 	<!-- 轮播图 -->
 	<div class="wrap" id="wrap">
 		<ul id="pic">
-			<li><img src="__PUBLIC__/home/images/1.jpg" /></li>
-			<li><img src="__PUBLIC__/home/images/2.jpg" /></li>
-			<li><img src="__PUBLIC__/home/images/3.jpg" /></li>
-			<li><img src="__PUBLIC__/home/images/4.jpg" /></li>
+			<volist name="banner" id="vo">
+				<li><img src="{:U($vo['src'])}" /></li>
+				<!-- <li><img src="__PUBLIC__/home/images/2.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/3.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/4.jpg" /></li> -->
+			</volist>
 		</ul>
 		<ol id="list">
 			<li class="on" value="1"></li>
@@ -24,30 +26,72 @@
 			<p>卓越以独特的灯具设计、领先的光学应用，倾力打造道路照明解决方案，营造舒适健康、品味非凡的光环境，让您的生活简单，愉悦，更添乐趣。</p>
 			<hr/>
 		</div>
-		<div class="bd1-left">
-			<a href="#"><img src="__PUBLIC__/home/images/01.jpg" /></a>
-			<div class="displays1">更多</div>
-		</div>
+		<div class="bd1-left view view-tenth">
+	    	<volist name="new1" id="vo">
+		    	<figure>
+			        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+			        <div class="mask">
+			            <h2>{$vo.name}</h2>
+			            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+			            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+			        </div>
+		        </figure>
+		    </volist>
+	    </div>
 		<div class="bd1-right">
 			<div class="bd1-right-top">
-				<div class="bd1-right-top1">
-					<a href="#"><img src="__PUBLIC__/home/images/02.jpg" /></a>
-					<div class="displays2">更多</div>
-				</div>
-				<div class="bd1-right-top2">
-					<a href="#"><img src="__PUBLIC__/home/images/03.jpg" /></a>
-					<div class="displays2">更多</div>
-				</div>
+				<div class="bd1-right-top1 view view-tenth">
+					<volist name="new2" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
+
+				<div class="bd1-right-top2 view view-tenth">
+			    	<volist name="new3" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
 			</div>
 			<div class="bd1-right-bottom">
-				<div class="bd1-right-bottom1">
-					<a href="#"><img src="__PUBLIC__/home/images/04.jpg" /></a>
-					<div class="displays2">更多</div>
-				</div>
-				<div class="bd1-right-bottom2">
-					<a href="#"><img src="__PUBLIC__/home/images/05.jpg" /></a>
-					<div class="displays2">更多</div>
-				</div>
+				<div class="bd1-right-bottom1 view view-tenth">
+			    	<volist name="new4" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
+
+			    <div class="bd1-right-bottom2 view view-tenth">
+			    	<volist name="new5" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
 			</div>
 		</div>
 	</div>
@@ -60,14 +104,26 @@
 			<hr/>
 		</div>
 		<div class="bd2-bottom">
-        	<div class="port effect">
+			<volist name="hot" id="vo">
+				<div class="port effect">
+	            	<div class="image-box">
+	                	<img src="{:U($vo['picture'])}" />
+	                </div>
+	                <div class="text-desc">
+	                	<h3>{$vo.title}</h3>
+	                    <p>查看详细信息</p>
+	                	<a href="{:U('Show/show')}/id/{$vo.id}" class="btn">查看更多</a>
+	                </div>
+	            </div>
+			</volist>
+        	<!-- <div class="port effect">
             	<div class="image-box">
                 	<img src="__PUBLIC__/home/images/01.jpg" />
                 </div>
                 <div class="text-desc">
                 	<h3>高杆灯</h3>
                     <p>查看详细信息</p>
-                	<a href="#" class="btn">查看更多</a>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
                 </div>
             </div>
             <div class="port effect">
@@ -77,7 +133,7 @@
                 <div class="text-desc">
                 	<h3>高杆灯</h3>
                     <p>查看详细信息</p>
-                	<a href="#" class="btn">查看更多</a>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
                 </div>
             </div>
             <div class="port effect">
@@ -87,7 +143,7 @@
                 <div class="text-desc">
                 	<h3>高杆灯</h3>
                     <p>查看详细信息</p>
-                	<a href="#" class="btn">查看更多</a>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
                 </div>
             </div>
             <div class="port effect">
@@ -97,9 +153,9 @@
                 <div class="text-desc">
                 	<h3>高杆灯</h3>
                     <p>查看详细信息</p>
-                	<a href="#" class="btn">查看更多</a>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
                 </div>
-            </div>
+            </div> -->
 		</div>
 	</div>
 	<!--猜你喜欢-->
@@ -113,11 +169,14 @@
 		<div id="demo">
 			<div id="indemo">
 				<div id="demo1">
-					<a href="#"><img src="__PUBLIC__/home/images/01.jpg" alt="#" /></a>
-					<a href="#"><img src="__PUBLIC__/home/images/02.jpg" alt="#" /></a>
-					<a href="#"><img src="__PUBLIC__/home/images/03.jpg" alt="#" /></a>
-					<a href="#"><img src="__PUBLIC__/home/images/04.jpg" alt="#" /></a>
-					<a href="#"><img src="__PUBLIC__/home/images/05.jpg" alt="#" /></a>
+					<volist name="like" id="vo">
+						<a href="{:U('Show/show')}/id/{$vo.id}"><img src="{:U($vo['picture'])}" alt="#" /></a>
+					</volist>
+					<!-- <a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/01.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/02.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/03.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/04.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/05.jpg" alt="#" /></a> -->
 				</div>
 				<div id="demo2"></div>
 			</div>

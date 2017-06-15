@@ -12,12 +12,13 @@
 h4{ font-size:14px; color:#666;}
 a{color:#0ae;}
 </style>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.css">
 </head>
 <body class="no-skin">
 <div class="error-container"> 
     <h1> 后台管理系统-信息提示 </h1>   
     <div class="errorcon">     
-        <i class="fa fa-smile-o"></i><?php echo($error); ?>        
+        <i class="fa fa-frown-o"></i><?php echo($error); ?>        
         <span style="display:none;"><i class="fa fa-frown-o"></i>操作失败!</span>
    </div>
     <h4 class="smaller">页面自动 <a id="href" href="<?php echo($jumpUrl); ?>">跳转</a> 等待时间： <b id="wait"><?php echo($waitSecond); ?></b></h4> 

@@ -10,7 +10,7 @@
     <div class="edit">
         <div class="edit-head"><i class="fa fa-edit"></i> 增加内容</div>
         <div class="edit-body">
-            <form method="post" action="">      
+            <form method="post" action="{:U('Admin/banner/imgadd')}" enctype="multipart/form-data">      
                 <div class="form-group">
                     <div class="place">
                         <div class="label">选择图片：</div>
@@ -52,10 +52,9 @@
                     var reader = new FileReader();
                     reader.readAsDataURL(this.files[i]);
                     reader.onload = function(e){
-                        result = '<div class="result" ><img src="'+this.result+'" class="ban_img" alt=""/></div>';
-                        div = document.createElement('div');
-                        div.innerHTML = result;
-                        document.getElementById('preview').appendChild(div);　　　
+                        document.getElementById('preview').innerHTML="";
+                        result = '<img src="'+this.result+'" class="ban_img" alt=""/>';
+                        document.getElementById('preview').innerHTML=result;　　　
                     }
                 }
             }

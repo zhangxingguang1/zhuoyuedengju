@@ -10,13 +10,13 @@
     <div class="edit">
         <div class="edit-head"><i class="fa fa-edit"></i> 编辑分类</div>
         <div class="edit-body">
-            <form method="post" action="{:U('Admin/procate/procate_add')}">  
+            <form method="post" action="{:U('Admin/procate/procate_edit_deal')}">  
                 <volist name="show" id="vo">
                     <input type="hidden" name="old_id" style="dispaly:none;" value="{$vo.id}">
                 </volist>
                 <div class="form-group">
                     <div class="place">
-                        <div class="label"><span class="require-red">*</span>当前名称：</div>
+                        <div class="label">当前名称：</div>
                         
                               
                         <input type="text" disabled="disabled" value="{$vo.name}" style="width:15%"/>    
@@ -24,12 +24,7 @@
                 </div>   
                 <div class="form-group">
                     <div class="place">
-                        <div class="label"><span class="require-red">*</span>当前所属分类：</div>
-                        <!-- <select>
-                            <volist name="show" id="vo">
-                            <option>{$vo.fa_class}</option>
-                            </volist>
-                        </select>  -->    
+                        <div class="label">当前所属分类：</div>  
                         <input type="text" disabled="disabled" value="{$vo.fa_class}" style="width:15%"/>    
                     </div>
                 </div>       

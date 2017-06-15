@@ -9,51 +9,41 @@
 <body>
     <div class="panel">
         <div class="panel-head"><i class="fa fa-navicon"></i> 内容列表</div>
-        <div class="padding">  
-            <button><a href="{:U('admin/Newscate/newscate_add')}" target="right"><i class="fa fa-plus"></i> 添加分类</a></button>
-            <button><a href=""><i class="fa fa-minus"></i> 批量删除</a></button>
-        </div>
-        <form name="myform" method="post">           
+        <form name="myform" method="post" action="{:U('admin/Newscate/lot_del')}">
+            <div class="padding">  
+                <a href="{:U('admin/Newscate/newscate_add')}" target="right"><button type="button"><i class="fa fa-plus"></i> 添加分类</button></a>
+                <button><i class="fa fa-minus"></i> 批量删除</button>
+            </div>           
             <div class="result-content">
                 <table class="result-tab">
                     <tbody>
                         <tr>
-                            <th width="5%"><input type="checkbox"></th>
+                            <th width="5%"><input type="checkbox" id="all"></th>
                             <th>ID</th>
                             <th>分类名称</th>
                             <th>操作</th>
                         </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td>1</td>
-                            <td>公司新闻</td>          
-                            <td>
-                                <a href="">编辑</a> /
-                                <a href="">删除</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td>2</td>
-                            <td>行业动态</td>          
-                            <td>
-                                <a href="">编辑</a> /
-                                <a href="">删除</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td>3</td>
-                            <td>常见问题</td>          
-                            <td>
-                                <a href="">编辑</a> /
-                                <a href="">删除</a>
-                            </td>
-                        </tr> 
+                        <volist name="newscate" id="vo">
+                            <tr>
+                                <td><input type="checkbox" id="items[]" value="{$vo.id}"></td>
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>          
+                                <td>
+                                    <a href="{:U('Admin/Newscate/newscate_edit')}/id/{$vo.id}">编辑</a> /
+                                    <a href="{:U('Admin/Newscate/destroy')}/id/{$vo.id}">删除</a>
+                                </td>
+                            </tr>
+                        </volist>
                     </tbody>
                 </table>
             </div>
         </form>
     </div>
+    <script src="__PUBLIC__/admin/js/jquery.min.js"></script>
+    <script>
+        $("#all").click(function(){
+            $("input[type='checkbox']").attr("checked",this.checked);
+        });
+    </script>
 </body>
 </html>

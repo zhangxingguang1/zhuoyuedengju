@@ -239,7 +239,7 @@ tr:nth-child(odd){
 .field i{
     position:absolute;
     margin-left:-6%;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 .field img{
     position: absolute;
@@ -361,63 +361,16 @@ tr:nth-child(odd){
 /*聊天界面*/
 .conleft{
     float: left;
-    width: 20%;
-    margin-left:2%; 
-    margin-right: 5%;
-    border: 1px solid rgb(221,221,221);
-    background-color:rgb(251,251,251);
-}
-.onon{
-    background: rgb(200,200,200);
-}
-.conleft h4{
-    width: 100%;
-    line-height:50px;
-    padding-left: 3%;
-    border-bottom:1px solid rgb(221,221,221); 
-}
-.conleft li{
-    height:50px;
-    width: 100%;
-    padding-top:6px;
-    border-bottom: 1px solid rgb(221,221,221);
-}
-.conleft img{
-    float: left;
-    height:40px;
-    width: 40px;
-    padding-left: 5%;
-}
-.messmsg{
-    float: left;
-    height: 30px;
-    width: 50%;
-    padding-left: 2%;
-}
-.newses{
-    float: left;
-}
-.newes{
-    height: 15px;
-    width: 15px;
-    margin-top: 10px;
-    text-align: center;
-    border:1px solid red; 
-    border-radius:15px; 
-    background: red;
-    color: #fff;
-}
-.conleft p{
-    height: 20px;
-    overflow: hidden;
+    width: 15%;
+    margin-left:5%; 
 }
 .chat{
     float: left;
     width: 60%;
     height: 420px;
-    border: 1px solid rgb(221,221,221);
+    border: 1px solid #eee;
     border-radius:4px; 
-    background:rgb(252,252,252);
+    background:#eee;
     margin-bottom:20px;
 }
 .chatshow{
@@ -431,7 +384,7 @@ tr:nth-child(odd){
     background: rgb(243,248,251);
 }
 .texts{
-    width: 90%;
+    width: 89%;
     height: 35px;
     margin-top:10px;
     margin-left: 5%;

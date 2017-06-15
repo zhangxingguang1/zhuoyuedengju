@@ -37,8 +37,11 @@
 // 	// })
 // })
 
-// news tabs
-(function($){
+
+
+
+$(function(){
+	// news tabs
 	$("#news_tab_content>div").not("#news_tab1").hide();
     $("#news_tabs li").each(function(index){
         $(this).click(function(){
@@ -47,25 +50,50 @@
             $("#news_tab_content>div").eq(index).show().siblings().hide();
         })		          
     })
-})(jQuery)
+    // $(.bar li).each(function(){
+    // 	$(this).on('click','#cate_tabs',function(){
 
-$(function(){
+    // 	})
+    // })
+    // 
+    var pro_url = window.location.href;
+    var henglan = pro_url.charAt(pro_url.length - 1);
+
+    if(!isNaN(henglan)){
+    	$('#cate_tabs li').eq(henglan-1).addClass('pro_henglan');
+    }else{
+    	$('#cate_tabs li').eq(0).addClass('pro_henglan');
+    }
+    // window.onhashchange=function(){
+    // 	var pro_url = window.location.href;
+    // 	var henglan = pro_url.charAt(pro_url.length - 1);
+    // 	document.cookie='anchor='+henglan;
+    // }
+    // 
 	// category tabs
 	$("#cate_tab_content>div").not("#cate_tab1").hide();
-	$('#cate_tabs li').eq(0).css('background','#f0f8ff');
+	//$('#cate_tabs li').eq(0).css('background','#f0f8ff');
+	//
+	//$('#cate_tabs li').eq(0).addClass('pro_henglan');
+	//
 
     $("#cate_tabs li").each(function(index){
         $(this).click(function(){
-        	$(this).css('background','#f0f8ff');
-        	$(this).siblings().css('background','#fff');
+        	//$(this).css('background','#f0f8ff');
+        	$(this).attr("class", "pro_henglan");
+        	//
+        	//$(this).siblings().css('background','#fff');
+        	//
+        	$(this).siblings().removeClass('pro_henglan');
+        	//
             $("#cate_tab_content>div").eq(index).show().siblings().hide();
         })
 
         // append list
 
-		for (i = 0; i < $("#cate_tab_content>div").eq(index).find('.classify1 ul').length; i++) {
-			$("#cate_tab_content>div").eq(index).find('.select ul').append('<li class=\"sel-show\" style=\"display:none\"><a href=\"javascript:void(0);\" title=\"点击清除\"></a></li>');
-		}
+		// for (i = 0; i < $("#cate_tab_content>div").eq(index).find('.classify1 ul').length; i++) {
+		// 	$("#cate_tab_content>div").eq(index).find('.select ul').append('<li class=\"sel-show\" style=\"display:none\"><a href=\"javascript:void(0);\" title=\"点击清除\"></a></li>');
+		// }
 		// show list
 		$("#cate_tab_content>div").eq(index).find('.classify1 a').click(function(){
 			if(! $(this).hasClass('seled')){

@@ -2,19 +2,34 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>添加产品</title>
+    <title>编辑产品</title>
     <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
     <link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.css">
 </head>
 <body>
+    
     <div class="edit">
-        <div class="edit-head"><i class="fa fa-edit"></i> 添加产品</div>
+        <div class="edit-head"><i class="fa fa-edit"></i> 编辑产品</div>
         <div class="edit-body">
-            <form method="post" action="{:U('Admin/product/pro_add_deal')}" enctype="multipart/form-data">  
+            <div class="form-group">
+                <div class="label" style="line-height:132px;">所要编辑的产品：</div>
+                <div>
+                    <volist name="show" id="voshow">
+                        <span>图片：</span>
+                        <img class="pro_img" src="__PUBLIC__/{$voshow.picture}" alt="">
+                        <span>产品名称：{$voshow.name}</span>
+                    
+                </div>
+            </div>
+            <form method="post" action="{:U('Admin/product/pro_upload')}" enctype="multipart/form-data">  
+                    <input type="hidden" name="old_id" style="dispaly:none;" value="{$voshow.id}">
+                </volist>
                 <div class="form-group">
                     <div class="place">
                         <div class="label"><span class="require-red">*</span>产品名称：</div>
-                        <input type="text" name="name" />         
+                        <volist name="show" id="voshow">
+                            <input type="text" name="name" value="{$voshow.name}"/>
+                        </volist>         
                     </div>
                 </div>    
                 <div class="form-group">
@@ -23,10 +38,14 @@
                         <input type="file" name="picture" />       
                     </div>
                 </div>   
+
                 <div class="form-group">
                     <div class="place">
                         <div class="label">选择系列：</div>
                         <select name="xilie">
+                            <volist name="sxilie" id="xiala1">
+                                <option value="{$xiala1.id}">{$xiala1.name}</option>
+                            </volist>
                            <volist name="xilie" id="vo1">
                                 <option value="{$vo1.id}">{$vo1.name}</option>
                            </volist>
@@ -35,8 +54,11 @@
                 </div>
                 <div class="form-group">
                     <div class="place">
-                        <div class="label">选择光源种类：</div>
+                        <div class="label">选择光源种类：</div>                         
                         <select name="guangyuan">
+                            <volist name="sguangyuan" id="xiala2">
+                                <option value="{$xiala2.id}">{$xiala2.name}</option>
+                            </volist>
                            <volist name="guangyuan" id="vo2">
                                 <option value="{$vo2.id}">{$vo2.name}</option>
                            </volist>
@@ -47,6 +69,9 @@
                     <div class="place">
                         <div class="label">选择用途分类：</div>
                         <select name="yongtu">
+                            <volist name="syongtu" id="xiala3">
+                                <option value="{$xiala3.id}">{$xiala3.name}</option>
+                            </volist>
                            <volist name="yongtu" id="vo3">
                                 <option value="{$vo3.id}">{$vo3.name}</option>
                            </volist>
@@ -57,9 +82,12 @@
                     <div class="place">
                         <div class="label">选择光通量：</div>
                         <select name="guangtongliang">
-                           <volist name="guangtongliang" id="vo4">
+                            <volist name="sguangtongliang" id="xiala4">
+                                <option value="{$xiala4.id}">{$xiala4.name}</option>
+                            </volist>
+                            <volist name="guangtongliang" id="vo4">
                                 <option value="{$vo4.id}">{$vo4.name}</option>
-                           </volist>
+                            </volist>
                         </select>
                     </div>   
                 </div>
@@ -68,19 +96,28 @@
                 <div class="form-group">
                     <div class="place">
                         <div class="label">详细介绍：</div>
-                        <textarea rows="5" cols="" name="jieshao"></textarea>         
+                        <volist name="show" id="voshow">
+                            <textarea rows="5" cols="" name="jieshao">{$voshow.jieshao}</textarea>
+                        </volist> 
+                                 
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="place">
                         <div class="label">使用说明：</div>
-                        <textarea rows="5" cols="" name="shuoming"></textarea>         
+                        <!-- <textarea rows="5" cols=""></textarea>  -->
+                        <volist name="show" id="voshow">
+                            <textarea rows="5" cols="" name="shuoming">{$voshow.shuoming}</textarea>
+                        </volist>        
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="place">
                         <div class="label">注意事项：</div>
-                        <textarea rows="5" cols="" name="zhuyi"></textarea>         
+                        <!-- <textarea rows="5" cols=""></textarea> --> 
+                        <volist name="show" id="voshow">
+                            <textarea rows="5" cols="" name="zhuyi">{$voshow.zhuyi}</textarea>
+                        </volist>        
                     </div>
                 </div>
                 <div class="form-group">

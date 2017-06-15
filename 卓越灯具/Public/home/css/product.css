@@ -9,7 +9,8 @@
 .classify ul li{
 	float: left;
 	line-height: 40px;
-	width:8%;
+	width:10%;
+	min-width: 80px;
 	text-align: center;
 }
 .classify ul li a{
@@ -163,4 +164,7 @@
 	margin-top: 20px;
 	text-align: center;
 	font-size: 14px;
+}
+.pro_henglan{
+	background-color: #f0f8ff;
 }

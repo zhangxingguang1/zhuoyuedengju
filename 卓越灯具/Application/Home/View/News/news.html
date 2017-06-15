@@ -23,150 +23,34 @@
   			<!-- 最新产品 -->
 			<div class="new_con_top">
 				<div>					
-					<div class="program clears" id="news_tabs">						
-						<div class="bre_action">
-							<li><a href="javascript:void(0);">公司新闻</a></li>
-							<span></span>
-						</div>
-						<div>
-							<li><a href="javascript:void(0);">行业动态</a></li>
-							<span></span>
-						</div>
-						<div>
-							<li><a href="javascript:void(0);">常见问题</a></li>		
-							<span></span>
-						</div>						
+					<div class="program clears" id="news_tabs">
+						<volist name="newscate" id="vo">
+							<div>
+								<li><a href="javascript:void(0);">{$vo.name}</a></li>
+								<span></span>
+							</div>
+						</volist>										
 					</div>
 				</div>
 			</div>
 			<div id="news_tab_content">
-				<div class="new_con_bottom clears" id="news_tab1">
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
+				<volist name="news" id="val">
+					<div class="new_con_bottom clears">
+						<volist name="val['sub']" id="sub">
+							<div class="bottom_out">
+								<div class="new_img">
+									<img src="{:U($sub['src'])}" />
+								</div>
+								<div class="new_text">
+									<h3><a href="{:U('Home/Detail/detail')}/id/{$sub.id}">{$sub.title}</a></h3>
+									<h5>{$sub.date}</h5>
+									<p>{$sub.content|strip_tags|msubstr=0,90,'utf-8',true}</p>
+									<a class="more" href="{:U('Home/Detail/detail')}/id/{$sub.id}">详情 >></a>
+								</div>
+							</div>
+						</volist>
 					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-				</div>
-				<div class="new_con_bottom clears" id="news_tab2">
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-				</div>
-				<div class="new_con_bottom clears" id="news_tab3">
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-					<div class="bottom_out">
-						<div class="new_img">
-							<img src="__PUBLIC__/home/images/03.jpg" alt="">
-						</div>
-						<div class="new_text">
-							<h3><a href="{:U('Home/Detail/detail')}">精准扶贫进展如火如荼，天光用光添薄力</a></h3>
-							<h5>时间：2017年04月14日</h5>
-							<p>4月7日，天光照明新农村房屋灯光改造，暨爱心公益捐赠仪式在云南省楚雄市苍岭镇举行。在这次捐赠活动中，天光向楚雄市苍岭镇捐助了灯管、灯泡、吸顶灯、台灯等共计7725个灯具，总价值近63万人民币。</p>
-							<span><a href="{:U('Home/Detail/detail')}">详情>></a></span>
-						</div>
-					</div>
-				</div>
+				</volist>
 			</div>
 		</div>
 	</div>

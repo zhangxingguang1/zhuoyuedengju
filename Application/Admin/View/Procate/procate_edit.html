@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/font-awesome.css">
+</head>
+<body>
+    <div class="edit">
+        <div class="edit-head"><i class="fa fa-edit"></i> 编辑分类</div>
+        <div class="edit-body">
+            <form method="post" action="{:U('Admin/procate/procate_edit_deal')}">  
+                <volist name="show" id="vo">
+                    <input type="hidden" name="old_id" style="dispaly:none;" value="{$vo.id}">
+                </volist>
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label">当前名称：</div>
+                        
+                              
+                        <input type="text" disabled="disabled" value="{$vo.name}" style="width:15%"/>    
+                    </div>
+                </div>   
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label">当前所属分类：</div>  
+                        <input type="text" disabled="disabled" value="{$vo.fa_class}" style="width:15%"/>    
+                    </div>
+                </div>       
+                  
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label"><span class="require-red">*</span>所属分类类别：</div>
+                        <select name="fa_class_id">
+                            <option value="1">系列</option>
+                            <option value="2">光源种类</option>
+                            <option value="3">用途分类</option>
+                            <option value="4">光通量分布</option>
+                        </select>         
+                    </div>
+                </div>      
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label"><span class="require-red">*</span>分类名称：</div>
+                        <input type="text" name="name" />         
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label"> </div>
+                        <button class="submit" type="submit"> 提交</button>
+                        <button class="back" onclick="history.go(-1)"> 返回</button> 
+                    </div>
+                </div>      
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

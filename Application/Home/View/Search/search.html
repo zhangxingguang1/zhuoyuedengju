@@ -1,0 +1,29 @@
+<extend name="Public/base" />
+<block name="content">
+	<div class="content clears">
+		
+			<if condition="$date eq null">
+				<div class="show clears" id="showtime">
+		            <volist name="data" id="vo">
+						<div name="showtime" class="pro_page_num chage_page">
+							<a href="{:U('Home/Show/show')}/id/{$vo.id}">
+								<img src="__PUBLIC__/{$vo.picture}" />
+								<h3>{$vo.name}</h3>
+								<span>查看详细信息</span>
+							</a>
+						</div>
+					</volist>
+				</div>
+				<div id="barcon"></div>
+	        <else/>
+	            <p style="height:400px; width:50%; text-align:center;margin:0 auto;">
+					<img src="__PUBLIC__/home/images/notfund.gif" style="width:100%;margin-top:40px;" />
+	            </p>
+	        </if>	
+	</div>
+	<script>
+		window.onload=function(){
+		    goPage(1,8);
+		}
+	</script>
+</block>

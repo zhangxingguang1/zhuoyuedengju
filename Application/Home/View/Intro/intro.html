@@ -1,0 +1,109 @@
+<!-- <meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/intro.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/wrap.js"></script>
+<script src="js/slide.js"></script> -->
+<extend name="Public/base" />
+<block name="content">
+	<!--轮播图-->
+	<div class="wrap" id="wrap">
+		<ul id="pic">
+			<volist name="banner" id="vo">
+				<li><img src="{:U($vo['src'])}" /></li>
+				<!-- <li><img src="__PUBLIC__/home/images/2.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/3.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/4.jpg" /></li> -->
+			</volist>
+		</ul>
+		<ol id="list">
+			<li class="on" value="1"></li>
+			<li value="2"></li>
+			<li value="3"></li>
+			<li value="4"></li>
+		</ol>			
+	</div>
+	<!--content-->
+	<div class="content clears">
+		<!--面包屑-->
+  		<div class="bread">
+			<ol>
+			    <li><a href="{:U('Home/Index/index')}">首页</a></li>
+			    <li class="active">走进卓越</li>
+			</ol>
+		</div>
+		<div class="intro_left">
+			<h4>走进卓越</h4>
+			<ul id="tab">
+				<li class="selected">公司简介</li>
+				<li>荣誉资质</li>
+				<li>办公环境</li>
+			</ul>
+		</div>
+	  	<div id="tab1" class="intro_right">
+	  		<h4>公司简介</h4>
+			<video controls="controls">
+				<source src="__PUBLIC__/home/images/movie.ogg" type="video/ogg">
+				<source src="__PUBLIC__/home/images/movie.mp4" type="video/mp4">
+				您的浏览器版本过低无法播放视频
+			</video>
+			<p>新乐市天光灯具有限公司是从事灯具产品开发、研制、生产的企业，拥有一批具有丰富工作经验的工程技术人员和管理人才，经过多年的不懈努力，企业已形成室外道路照片灯具、特种灯具等几大类，数十种系列化产品。产品销往全国二十多个省市，在我国多项大型工程中大量使用。公司具备完善的制造能力和新产品的开发能力，严格的管理制度，先进的生产工艺和全面的质量保证体系，为产提供充分的保障。 公司以严谨，创新，诚信，进取作为自己的企业精神，坚持以市场要求为向导，以客户满意为宗旨，坚持质量第一，信誉第一。公司将以一流的产品质量，一流的销售服务为各界用户提供放心的产品，满意的服务.</p>
+	  	</div>
+	  	<div id="tab2" class="intro_right hide">
+	  		<h4>荣誉资质</h4>
+	  		<img src="__PUBLIC__/home/images/3.jpg" />
+					<h5>厂房外景</h5>
+					<p>LED照明凭借其节能和寿命长的巨大潜力优势，现已成为大多数照明应用的首选。而且，正变得更加智能和以人为中心。有些公司通过将无处不在的照明基础设施用于其他服务，甚至已经超越了以人为中心的照明。例如，可以部署传感器来为物联网收集信息。这让照明应用在智能家居、智能建筑和未来的智能城市中起到重要的作用。</p>
+	  		<div class="honour">
+				<img src="__PUBLIC__/home/images/01.jpg"/>
+				<img src="__PUBLIC__/home/images/02.jpg"/>
+				<img src="__PUBLIC__/home/images/03.jpg"/>
+				<img src="__PUBLIC__/home/images/04.jpg"/>
+		  	</div>
+		  	<h5>厂房外景</h5>
+				<p>LED照明凭借其节能和寿命长的巨大潜力优势，现已成为大多数照明应用的首选。而且，正变得更加智能和以人为中心。有些公司通过将无处不在的照明基础设施用于其他服务，甚至已经超越了以人为中心的照明。例如，可以部署传感器来为物联网收集信息。这让照明应用在智能家居、智能建筑和未来的智能城市中起到重要的作用。</p>
+		</div>
+		<div class="intro_right hide" id="tab3">
+				<h4>办公环境</h4>
+				<img src="__PUBLIC__/home/images/1.jpg" />
+				<h5>厂房外景</h5>
+				<p>LED照明凭借其节能和寿命长的巨大潜力优势，现已成为大多数照明应用的首选。而且，正变得更加智能和以人为中心。有些公司通过将无处不在的照明基础设施用于其他服务，甚至已经超越了以人为中心的照明。例如，可以部署传感器来为物联网收集信息。这让照明应用在智能家居、智能建筑和未来的智能城市中起到重要的作用。</p>
+				<div class="office clears">
+					<img src="__PUBLIC__/home/images/2.jpg">
+					<img src="__PUBLIC__/home/images/3.jpg">
+				</div>
+				<div class="office1 clears">
+					<img src="__PUBLIC__/home/images/1.jpg">
+					<img src="__PUBLIC__/home/images/3.jpg">
+					<img src="__PUBLIC__/home/images/4.jpg">
+				</div>
+				<h5>办公环境</h5>
+				<p>LED照明凭借其节能和寿命长的巨大潜力优势，现已成为大多数照明应用的首选。而且，正变得更加智能和以人为中心。有些公司通过将无处不在的照明基础设施用于其他服务，甚至已经超越了以人为中心的照明。例如，可以部署传感器来为物联网收集信息。这让照明应用在智能家居、智能建筑和未来的智能城市中起到重要的作用。</p>
+				<div class="honor">
+					<img src="__PUBLIC__/home/images/01.jpg">
+					<img src="__PUBLIC__/home/images/02.jpg">
+					<img src="__PUBLIC__/home/images/03.jpg">
+				</div>
+				<h5>生产一角</h5>
+				<p>LED照明凭借其节能和寿命长的巨大潜力优势，现已成为大多数照明应用的首选。而且，正变得更加智能和以人为中心。有些公司通过将无处不在的照明基础设施用于其他服务，甚至已经超越了以人为中心的照明。例如，可以部署传感器来为物联网收集信息。这让照明应用在智能家居、智能建筑和未来的智能城市中起到重要的作用。</p>
+		</div>
+		<script>
+			var otab=document.getElementById("tab");
+			var oli=otab.getElementsByTagName("li");
+			var tabs=["tab1","tab2","tab3"]
+			for(var i=0;i<oli.length;i++){
+				oli[i].index=i;
+				oli[i].onclick=function(){
+					for(var j=0;j<oli.length;j++){
+						document.getElementById(tabs[j]).className="hide";
+						oli[j].className="";
+					}
+					document.getElementById(tabs[this.index]).className="intro_right";
+					oli[this.index].className="selected";
+				}
+			}
+		</script>
+	</div>
+</block>
+	

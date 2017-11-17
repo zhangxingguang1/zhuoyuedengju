@@ -1,0 +1,1760 @@
+[ 2017-06-08T17:56:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0163s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0161s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:56:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0072s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0057s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0145s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0115s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0054s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0145s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0159s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0162s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:57:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0109s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0054s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0154s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0134s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0056s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0138s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0077s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0089s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:58:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0184s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0133s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0133s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0153s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0145s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0134s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0146s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0154s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T17:59:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0153s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0057s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0116s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0164s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0166s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0105s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:45+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0054s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0050s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:00:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0153s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0052s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0144s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0056s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0154s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0160s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0168s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:01:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0155s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0144s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0159s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0166s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0153s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0138s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0057s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0138s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0052s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:02:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0051s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0133s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0078s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0064s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0069s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0157s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0155s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0061s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:03:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0146s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0154s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0145s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0154s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0162s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:04:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0145s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:09+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0132s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:14+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0051s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:24+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0156s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:29+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:34+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0136s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:39+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:44+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:49+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0129s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:54+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0133s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:05:59+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:03+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0164s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:04+08:00 ] 127.0.0.1 /zhuoyue/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `newscate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2017-06-08T18:06:10+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0113s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:15+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:20+08:00 ] 127.0.0.1 /zhuoyue/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `newscate`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-06-08T18:06:21+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0057s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:26+08:00 ] 127.0.0.1 /zhuoyue/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `newscate`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-06-08T18:06:27+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:32+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:37+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:42+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0082s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:47+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0150s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:52+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0146s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:06:57+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:02+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0155s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:07+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0155s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:12+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0051s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:17+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0151s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:18+08:00 ] 127.0.0.1 /zhuoyue/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `newscate`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-06-08T18:07:19+08:00 ] 127.0.0.1 /zhuoyue/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `newscate`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-06-08T18:07:20+08:00 ] 127.0.0.1 /zhuoyue/index.php/Home/News/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `newscate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `newscate`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2017-06-08T18:07:26+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0146s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:31+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0133s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:36+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0131s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:41+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:46+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:51+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:07:56+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0148s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:01+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:06+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0149s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:11+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0142s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:16+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0154s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:21+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:26+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0146s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:31+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0147s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+
+[ 2017-06-08T18:08:36+08:00 ] 127.0.0.1 /zhuoyue/index.php/home/index/fresh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index: name E:\WebServer\wwwroot\zhuoyue\Application\Home\Controller\IndexController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `msg` [ RunTime:0.0135s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY id desc LIMIT 20' at line 1
+

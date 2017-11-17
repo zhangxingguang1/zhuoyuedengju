@@ -1,0 +1,120 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/zhuoyue/Public/admin/css/admin.css">
+    <link rel="stylesheet" href="/zhuoyue/Public/admin/css/font-awesome.css">
+    <script src="/zhuoyue/Public/admin/js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="edit">
+        <div class="edit-head"><i class="fa fa-key"></i> 修改密码</div>
+        <div class="edit-body">
+            <form name="forme" id="forme" method="post" action="<?php echo U('Admin/Password/passchae');?>">
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label">管理员帐号：</div>
+                        <span><?php echo ($_SESSION['username']); ?></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="place places">
+                        <div class="label">原始密码：</div>
+                        <input type="password" name="oldpass"/>
+                        <span class="notes"></span>
+                    </div>
+                </div>      
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label">新密码：</div>
+                        <input type="password" name="newpass" placeholder="请输入新密码" />
+                        <span class="notes"></span> 
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label">确认新密码：</div>
+                        <input type="password" placeholder="请再次输入新密码" /> 
+                        <span class="notes"></span>     
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="place">
+                        <div class="label"> </div>
+                        <button class="submit"> 提交</button>   
+                    </div>
+                </div>  
+            </form>
+        </div>
+    </div>
+    <script>
+    
+        $(function(){
+            $('input').eq(0).blur(function(){
+                var password=$(this).val();
+                if(password==""){
+                    $('span').eq(1).empty();
+                    $('span').eq(1).append("原密码不能为空");
+                    $(this).css("border","1px solid red");
+                }
+                else{
+                    $.getJSON("<?php echo U('admin/password/pass');?>",'',function(pass){
+                        if(pass[0]['password']!=password){
+                            $('span').eq(1).empty();
+                            $('span').eq(1).append("原密码不正确");
+                            $('input').eq(0).css("border","1px solid red");
+                        }
+                        else{
+                            $('span').eq(1).empty();
+                            $('input').eq(0).css("border","1px solid #5cd053");
+                        }
+                    })
+                }
+            })
+            $('input').eq(1).blur(function(){
+                var password=$(this).val();
+                var reg=/^[a-zA-Z\d_]{6,}$/g;
+                $('span').eq(2).empty();
+                if(reg.test(password)){
+                    $(this).css("border","1px solid #5cd053");
+                    var pass=$('input').eq(2).val();
+                    if(password==pass){
+                        $('span').eq(3).empty();
+                        $('input').eq(2).css("border","1px solid #5cd053");
+                    }
+                }
+                else{
+                    $('span').eq(2).append("密码少于6位或有特殊字符");
+                    $(this).css("border","1px solid red");
+                }
+            })
+            $('input').eq(2).blur(function(){
+                var password=$(this).val();
+                var pass=$('input').eq(1).val();
+                $('span').eq(3).empty();
+                $(this).css("border","1px solid #5cd053");
+                if(password ==""){
+                    $('span').eq(3).append("不能为空");
+                    $(this).css("border","1px solid red");
+                }
+                else if(pass == ""){
+                    $('span').eq(2).append("不能为空");
+                    $('input').eq(1).css("border","1px solid red");
+                }
+                else if(password!=pass){
+                    $('span').eq(3).append("两次输入不一致");
+                    $(this).css("border","1px solid red");
+                }
+            })
+            $('.submit').on('click',function(){
+                $('input').trigger('blur');
+                if($('.notes').eq(0).html() || $('.notes').eq(1).html() || $('.notes').eq(2).html()){
+                    return false;
+                }
+                $('#forme').submit();
+            })
+        })  
+    </script>
+</body>
+</html>

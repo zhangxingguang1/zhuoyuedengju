@@ -1,0 +1,232 @@
+<extend name="Public/base" />
+<block name="content">
+	<!-- 轮播图 -->
+	<div class="wrap" id="wrap">
+		<ul id="pic">
+			<volist name="banner" id="vo">
+				<li><img src="{:U($vo['src'])}" /></li>
+				<!-- <li><img src="__PUBLIC__/home/images/2.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/3.jpg" /></li>
+				<li><img src="__PUBLIC__/home/images/4.jpg" /></li> -->
+			</volist>
+		</ul>
+		<ol id="list">
+			<li class="on" value="1"></li>
+			<li value="2"></li>
+			<li value="3"></li>
+			<li value="4"></li>
+		</ol>			
+	</div>
+	<!-- content -->
+	<div class="bd1 clears">
+		<!-- 最新产品 -->
+		<div class="bd1-top">
+			<h2>最新产品 ></h2>
+			<hr/>
+			<p>卓越以独特的灯具设计、领先的光学应用，倾力打造道路照明解决方案，营造舒适健康、品味非凡的光环境，让您的生活简单，愉悦，更添乐趣。</p>
+			<hr/>
+		</div>
+		<div class="bd1-left view view-tenth">
+	    	<volist name="new1" id="vo">
+		    	<figure>
+			        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+			        <div class="mask">
+			            <h2>{$vo.name}</h2>
+			            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+			            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+			        </div>
+		        </figure>
+		    </volist>
+	    </div>
+		<div class="bd1-right">
+			<div class="bd1-right-top">
+				<div class="bd1-right-top1 view view-tenth">
+					<volist name="new2" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
+
+				<div class="bd1-right-top2 view view-tenth">
+			    	<volist name="new3" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
+			</div>
+			<div class="bd1-right-bottom">
+				<div class="bd1-right-bottom1 view view-tenth">
+			    	<volist name="new4" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
+
+			    <div class="bd1-right-bottom2 view view-tenth">
+			    	<volist name="new5" id="vo">
+				    	<figure>
+					        <div class="thumb"><img src="{:U($vo['picture'])}" /></div>
+					        <div class="mask">
+					            <h2>{$vo.name}</h2>
+					            <p>{$vo.jieshao|strip_tags|msubstr=0,50,'utf-8',true}</p>
+					            <a href="{:U('Show/show')}/id/{$vo.id}" class="link">查看更多</a>
+					        </div>
+				        </figure>
+				    </volist>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<!-- 热销产品 -->
+	<div class="bd2 clears">
+  		<div class="bd2-top">
+			<h2>热销产品 ></h2>
+			<hr/>
+			<p>卓越以独特的设计、研发、制造、服务能力所打造的商用照明系列，能为客户提供专业的整体解决方案，满足全方位商业需求。</p>
+			<hr/>
+		</div>
+		<div class="bd2-bottom">
+			<volist name="hot" id="vo">
+				<div class="port effect">
+	            	<div class="image-box">
+	                	<img src="{:U($vo['picture'])}" />
+	                </div>
+	                <div class="text-desc">
+	                	<h3>{$vo.title}</h3>
+	                    <p>查看详细信息</p>
+	                	<a href="{:U('Show/show')}/id/{$vo.id}" class="btn">查看更多</a>
+	                </div>
+	            </div>
+			</volist>
+        	<!-- <div class="port effect">
+            	<div class="image-box">
+                	<img src="__PUBLIC__/home/images/01.jpg" />
+                </div>
+                <div class="text-desc">
+                	<h3>高杆灯</h3>
+                    <p>查看详细信息</p>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
+                </div>
+            </div>
+            <div class="port effect">
+            	<div class="image-box">
+                	<img src="__PUBLIC__/home/images/02.jpg" />
+                </div>
+                <div class="text-desc">
+                	<h3>高杆灯</h3>
+                    <p>查看详细信息</p>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
+                </div>
+            </div>
+            <div class="port effect">
+            	<div class="image-box">
+                	<img src="__PUBLIC__/home/images/03.jpg" />
+                </div>
+                <div class="text-desc">
+                	<h3>高杆灯</h3>
+                    <p>查看详细信息</p>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
+                </div>
+            </div>
+            <div class="port effect">
+            	<div class="image-box">
+                	<img src="__PUBLIC__/home/images/04.jpg" />
+                </div>
+                <div class="text-desc">
+                	<h3>高杆灯</h3>
+                    <p>查看详细信息</p>
+                	<a href="{:U('Show/show')}/id/13" class="btn">查看更多</a>
+                </div>
+            </div> -->
+		</div>
+	</div>
+	<!--猜你喜欢-->
+	<div class="bd3 clears">
+  		<div class="bd3-top">
+			<h2>猜你喜欢 ></h2>
+			<hr/>
+			<p>卓越以独特的设计、研发、制造、服务能力所打造的商用照明系列，能为客户提供专业的整体解决方案，满足全方位商业需求。</p>
+			<hr/>
+		</div>
+		<div id="demo">
+			<div id="indemo">
+				<div id="demo1">
+					<volist name="like" id="vo">
+						<a href="{:U('Show/show')}/id/{$vo.id}"><img src="{:U($vo['picture'])}" alt="#" /></a>
+					</volist>
+					<!-- <a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/01.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/02.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/03.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/04.jpg" alt="#" /></a>
+					<a href="{:U('Show/show')}/id/13"><img src="__PUBLIC__/home/images/05.jpg" alt="#" /></a> -->
+				</div>
+				<div id="demo2"></div>
+			</div>
+		</div>
+	</div>
+	<!-- body底部 -->
+	<div class="page_footer">
+		<table cellpadding="0" cellspacing="0" border="0" class="quick_entry clears">
+			<tr>
+				<td>
+					<div>
+						<img src="__PUBLIC__/home/images/footer_logo_1.png" /><br>
+						<span>严格质量保证</span><br>
+						<p>QUALITY ASSURANCE</p><br>
+						<img src="__PUBLIC__/home/images/footer_logo_0.jpg" />	
+					</div>
+				</td>
+				<td>
+					<div>
+						<img src="__PUBLIC__/home/images/footer_logo_2.png" /><br>
+						<span>精湛研发制造</span><br>
+						<p>RESEARCH MANUFACTURE</p><br>
+						<img src="__PUBLIC__/home/images/footer_logo_0.jpg" />
+					</div>
+				</td>
+				<td>
+					<div>
+						<img src="__PUBLIC__/home/images/footer_logo_3.png" /><br>
+						<span>专业设计团队</span><br>
+						<p>DESIGN TEAM</p><br>
+						<img src="__PUBLIC__/home/images/footer_logo_0.jpg" />
+					</div>
+				</td>
+				<td>
+					<div>
+						<img src="__PUBLIC__/home/images/footer_logo_4.png" /><br>
+						<span>系统服务体系</span><br>
+						<p>SERVICE SYSTEM</p><br>
+						<img src="__PUBLIC__/home/images/footer_logo_0.jpg" />
+					</div>
+				</td>
+				<td>
+					<div>
+						<img src="__PUBLIC__/home/images/footer_logo_5.png" /><br>
+						<span>全程技术支持</span><br>
+						<p>TECHNICAL SUPPORT</p><br>
+						<img src="__PUBLIC__/home/images/footer_logo_0.jpg" />
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</block>
